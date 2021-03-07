@@ -1,0 +1,66 @@
+:root {
+    --bg1: #39036B;
+    --bg2: #6206B8;
+    --bg3: #400478;
+    --bg4: #f3e197;
+
+}
+
+
+nav {
+    background-color: var(--bg1);
+    text-transform: uppercase;
+    }
+
+.navbar-brand {
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+#bntBusca {
+    margin-right: 20px;
+}
+
+#destaqueHome {
+    position: fixed;
+    left: 800px;
+    background-color: var(--bg1);
+    height: 600px;
+    width: 500px;
+}
+
+.carousel-inner {
+    position: fixed;
+    top: 100px;
+    left: 200px;
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+.materiaPrincipal {
+    position: relative;
+    top: 50px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#autorMateriaPrincipal {
+    position: relative;
+    left: 5px;
+    color: var(--bg4);
+  
+}
+
+#botaoMateriaPrincipal {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    text-transform: uppercase;
+    
+
+    
+    
+}
