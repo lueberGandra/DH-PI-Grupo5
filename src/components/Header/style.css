@@ -1,0 +1,19 @@
+:root {
+    --bg1: #39036B;
+    --bg2: #6206B8;
+    --bg3: #400478;
+    --bg4: #f3e197;
+}
+Navbar {
+    background-color: var(--bg1);
+    text-transform: uppercase;
+    }
+
+.navbar-brand {
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+#bntBusca {
+    margin-right: 20px;
+}
