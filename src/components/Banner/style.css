@@ -1,9 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --bg1: #39036B;
     --bg2: #6206B8;
     --bg3: #400478;
     --bg4: #f3e197;
-
+   
+}
+#carouselExampleControls, .active, .carousel-item{
+    width: 100vw;
+    height: 70vh;
+    
+}
+.carousel--wrapper{   
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: ;
+    background-color: var(--bg1);
+    width: 100%;
+    height: 100vh;
+    flex-direction: column; 
+    padding-bottom: 12px;
+}
+.carousel_content-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    padding: 0 10px 5px; 
+    overflow: hidden;    
+   
+  
+}
+.carousel_content-wrapper h3{
+    font-size: 1rem;
+    font-weight: lighter; 
+    margin:5px 0 0;  
 }
 
 
