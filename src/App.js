@@ -1,14 +1,11 @@
-import Header from './components/Header'
-import Banner from './components/Banner'
-import './App.css'
-
+import Routes from './routes/index' 
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-<Header/>
-<Banner/>
+      <Routes/>
     </div>
   );
 }
