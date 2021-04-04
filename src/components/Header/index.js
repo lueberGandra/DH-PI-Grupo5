@@ -10,10 +10,10 @@ const Header = () => {
             <div className="logo"><a href="#home"><strong>Site</strong></a></div>
             <ul className="links">
                 <li><a href="#home">Inicio</a></li>
-                <li><a href="#portfolio">Podcast</a></li>
-                <li><a href="#about">Artigo</a></li>
-                <li><a href="#about">Video</a></li>
-                <li><a href="#about">Sobre</a></li>
+                <li><a href="#Podcast">Podcast</a></li>
+                <li><a href="#Artigo">Artigo</a></li>
+                <li><a href="#Video">Video</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
             </ul>
             <label for="nav-toggle" className="icon-burger">
                 <div className="line"></div>
