@@ -1,19 +1,19 @@
-import Header from './components/Header'
-import Banner from './components/Banner'
-import Podcast from './components/Podcast'
-
 import './App.css'
-
+import Routes from './routes/index' 
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
-<Header/>
-<Banner/>
-<Podcast/>
+
+
+      <Routes/>
+
+
     </div>
-  );
+  )
 }
 
 export default App;
