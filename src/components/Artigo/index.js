@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-const Article = () => {
+const Artigo = () => {
   return (
     <!DOCTYPE html>
 <html lang="pt-BR">
@@ -189,4 +189,4 @@ const Article = () => {
   )
 }
 
-export default Article
+export default Artigo
