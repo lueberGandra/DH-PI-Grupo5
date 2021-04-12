@@ -1,0 +1,450 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*geral*/
+
+#artigo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*header*/
+
+.artigo-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 95vh;
+    background-color: rgb(84, 23, 92);
+}
+
+.artigo-header-maior {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.artigo-header img {
+    min-width: 200px;
+    width: 100%;
+    height: 50vh;
+}
+
+.artigo-header-texto {
+    padding: 30px;
+}
+
+.artigo-header-texto > h1 {
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+hr {
+    visibility: hidden;
+}
+
+.artigo-header-resumo {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+.artigo-header-autor {
+    font-family: 'Roboto';
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.artigo-header-data {
+    font-family: 'Roboto';
+    color: whitesmoke;
+    font-size: 0.8rem;
+}
+
+.artigo-header-btn button {
+    padding: 10px;
+    background-color: whitesmoke;
+    color: rgb(84, 23, 92);
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 100vw;
+    border: none;
+    text-decoration: none;
+    
+}
+
+/*conteúdo do artigo*/
+
+.artigo-conteudo p {
+    font-family: 'Lora';
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin: 30px 20px;
+}
+
+.artigo-cta {
+    background-color: rgb(84, 23, 92);
+    padding: 20px;
+}
+
+.artigo-cta h3 {
+    font-family: 'Roboto';
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.artigo-cta p {
+    font-family: 'Roboto';
+    color: whitesmoke;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.artigo-cta form {
+    display: flex;
+    flex-direction: column;
+} 
+
+.artigo-cta > form input {
+    background-color: rgb(84, 23, 92);
+    width: 60vw;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+} 
+
+.artigo-cta > form input::placeholder{
+    font-family: 'Roboto';
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.artigo-cta > form button {
+    font-family: 'Roboto';
+    background-color: whitesmoke;
+    border: solid 1px whitesmoke;
+    color:  rgb(84, 23, 92);
+    text-transform: uppercase;
+    width: 60vw;
+    padding: 10px;
+    text-align: left;
+}
+
+/*aside ler mais */
+
+.ler-mais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(84, 23, 92);
+}
+
+.ler-mais-noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ler-mais-chamada{
+    font-family: 'Roboto';
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.ler-mais-chamada hr{
+    color: whitesmoke;
+      background-color: whitesmoke;
+      height: 5px;
+      width: 20vw;
+      margin-top: 10px;
+}
+
+.ler-mais-item {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items:flex-start;
+    margin-top: 30px;
+}
+
+.ler-mais-item img {
+    width: 90vw;
+    padding: 20px 5px 10px 20px;
+}
+
+.ler-mais-item h3 {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    color: whitesmoke;
+    padding: 0px 0px 5px 20px;
+}
+
+.ler-mais-item p {
+    font-family: 'Lora';
+    font-size: 0.8rem;
+    color: whitesmoke;
+    padding: 0px 45px 10px 20px;
+}
+
+
+@media (min-width: 920px) {
+        
+
+        /*header do artigo*/
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    #artigo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .artigo-header-maior {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: whitesmoke;
+        width: 100vw;
+        height: 95vh;
+    }
+    
+   .artigo-header-img img {
+       width: 100vw;
+       height: 100vw;
+   }
+    
+    .artigo-header-texto {
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+        padding-top: 40px;
+        background-color: whitesmoke;
+    }
+    
+    hr {
+        background-color: rgb(84, 23, 92);
+        height: 0.5vw;
+        width: 7vw;
+    
+    }
+    
+    .artigo-header-texto h1 {
+        font-family: 'Roboto';
+        color: rgb(84, 23, 92);
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    
+    .artigo-header-resumo {
+        font-family: 'Lora';
+        font-size: 2rem;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        line-height: 2rem;
+        color: rgb(84, 23, 92);
+
+    }
+    
+    .artigo-header-autor {
+        font-family: 'Roboto';
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        padding-top: 10px;
+        color: black;
+
+    }
+    
+    .artigo-header-data {
+        font-family: 'Roboto';
+        font-size: 1rem;
+        color: black;
+    }
+
+    .artigo-header-btn {
+        visibility: hidden;
+    }
+
+    
+    /*texto do artigo*/
+    
+    .artigo-texto {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .texto{
+        flex-basis: 50%;
+        font-family: 'Lora';
+        line-height: 1.5;
+        margin-top: 70px;
+        margin-left: 250px;
+    }
+    
+    .texto p {
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        margin: 30px 20px;
+    }
+    
+    
+    .artigo-cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(84, 23, 92);
+        height: 40vh;
+        font-family: 'Roboto';
+        color: whitesmoke;
+        text-transform: uppercase;  
+    
+    }
+    
+    .artigo-cta p {
+        font-family: 'Roboto';
+        color: whitesmoke;
+        font-size: 1rem;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    
+    .artigo-cta form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    
+    } 
+    
+    
+    .artigo-cta > form input {
+        background-color: rgb(84, 23, 92);
+        width: 30vw;
+        margin-bottom: 10px;
+        border: 1px solid whitesmoke;
+        padding: 10px;
+    } 
+    
+    .artigo-cta > form input::placeholder{
+        font-family: 'Roboto';
+        color: whitesmoke;
+        text-transform: uppercase;
+        text-align:center;
+    }
+    
+    
+    .artigo-cta > form button {
+        font-family: 'Roboto';
+        background-color: whitesmoke;
+        border: solid 1px whitesmoke;
+        color:  rgb(84, 23, 92);
+        text-transform: uppercase;
+        width: 30vw;
+        padding: 10px;
+        text-align: left;
+        text-align:center;
+    }
+    
+    .ler-mais {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(84, 23, 92);
+    }
+    
+    
+    /*seção ler mais*/
+    
+    .ler-mais {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .ler-mais-noticias {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+        padding: 20px;
+    }
+    
+    
+    .ler-mais-chamada{
+        font-family: 'Roboto';
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: whitesmoke;
+        padding-right: 160px;
+    }
+    
+    
+    .ler-mais-chamada hr{
+        color: whitesmoke;
+          background-color: whitesmoke;
+          height: 5px;
+          width: 2vw;
+          margin-top: 10px;
+    }
+    
+    
+    .ler-mais-item {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items:flex-start;
+        width: 30vw;
+    
+    }
+
+    .ler-mais-item img {
+        max-width: 400px;
+        max-width: 300px;
+    }
+
+    .ler-mais-texto > h3 {
+        font-size: 1.2rem;
+    }
+
+    .ler-mais-texto p {
+        font-size: 0.9rem;
+    }
+
+    
+    }
+

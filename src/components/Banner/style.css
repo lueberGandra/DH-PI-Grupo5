@@ -9,6 +9,7 @@
     --bg2: #6206B8;
     --bg3: #400478;
     --bg4: #f3e197;
+    --bg5:#ff7300;
 
 }
 
@@ -39,6 +40,9 @@
     color: #fff;
     padding: 0 10px 5px;
     overflow: hidden;
+}
+.carousel_content-wrapper h3{
+  color:var(--bg5)
 }
 .carousel--wrapper p{
     overflow: hidden;
@@ -85,7 +89,7 @@
         overflow: hidden;
        text-overflow: ellipsis;
        display: -webkit-box;
-       -webkit-line-clamp: 8; /* number of lines to show */
+       -webkit-line-clamp: 20; /* number of lines to show */
        -webkit-box-orient: vertical;
     }
 }
