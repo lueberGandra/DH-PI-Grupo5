@@ -4,14 +4,14 @@ import SignIn from '../components/Login/SignIn'
 import SignUp from '../components/Login/SignUp'
 import ChangePass from '../components/Login/ChangePass'
 import Admin from '../pages/Admin'
-import adminContent from '../components/adminContent'
+import Home from '../pages/Home'
 
 const Routes = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path = "/adminContent" component ={adminContent}/>
-        <Route exact path="/admin" component={Admin} />
+      <Route exact path="/" component={Home} />
+        <Route path="/admin" component={Admin} />
         <Route path="/signin" component={SignIn} />
         <Route exact path="/signup" component={SignUp} />
         <Route exact path="/change-password" component={ChangePass} />

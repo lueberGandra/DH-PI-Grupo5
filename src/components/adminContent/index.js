@@ -9,10 +9,13 @@ const AdminContent = () => {
                 <form class="form-inline">
                     <input class="form-control mr-sm-2" type="search" placeholder="Procurar artigos criados" aria-label="Search" />
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search">Procurar</i></button>
-                    <button type="button" class="btn btn-primary btn-rounded"><img src="./img/plus.png" alt="" />Novo</button>
                 </form>
             </nav>
             <div className="admin-content-postsWrapper">
+            <div className="admin-content-postsWrapper-header">
+                <h1 className="postWrapper-header-titles">Titulos</h1>
+                <button type="button" class="btn btn-primary btn-rounded"><img src="./img/plus.png" alt="" />Novo</button>
+            </div>
                 <div className="admin-content-postsWrapper-post-item">
                     <h1 className="post-item-title">Febre Amarela</h1>
                     <div className="post-item-icons">
