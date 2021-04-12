@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.home{
-    display: flex;
-   flex-direction: column;   
-  
 
-    
-}
+  }
+  #Home{
+    display: flex;
+    flex-direction: column; 
+   
+  }
+

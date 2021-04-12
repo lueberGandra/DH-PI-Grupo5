@@ -1,14 +1,28 @@
+
+
 import React from 'react'
+import Header from '../../components/Header'
 import Banner from '../../components/Banner'
 import News from '../../components/News'
 import './style.css'
 
-const Home = () => {
+
+
+
+function Home() {
     return (
-        <div className='home'>          
-         <Banner />
-          <News />        
+        <div id="Home">
+            <Header />
+            <div>
+             <Banner />
+             <News />
+
+            </div>
+            
+            
         </div>
-    )
+    );
 }
-export default Home
+
+export default Home;
+
